@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor blueColor];
     UILabel *nameLabel = [[UILabel alloc] init];
     nameLabel.text = @"模块A";
     nameLabel.font = [UIFont systemFontOfSize:40];

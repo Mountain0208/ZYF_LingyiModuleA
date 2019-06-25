@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		95607A9B22C0D79A002ADAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95607A9A22C0D79A002ADAB8 /* AppDelegate.m */; };
-		95607A9E22C0D79A002ADAB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95607A9D22C0D79A002ADAB8 /* ViewController.m */; };
 		95607AA122C0D79A002ADAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95607A9F22C0D79A002ADAB8 /* Main.storyboard */; };
 		95607AA322C0D7A6002ADAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95607AA222C0D7A6002ADAB8 /* Assets.xcassets */; };
 		95607AA622C0D7A6002ADAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95607AA422C0D7A6002ADAB8 /* LaunchScreen.storyboard */; };
 		95607AA922C0D7A6002ADAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95607AA822C0D7A6002ADAB8 /* main.m */; };
 		95607AB322C0D7A6002ADAB8 /* ZYF_LingyiModuleATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95607AB222C0D7A6002ADAB8 /* ZYF_LingyiModuleATests.m */; };
 		95607ABE22C0D7A6002ADAB8 /* ZYF_LingyiModuleAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95607ABD22C0D7A6002ADAB8 /* ZYF_LingyiModuleAUITests.m */; };
+		958606C922C1B645004178C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958606C722C1B645004178C6 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		95607A9622C0D79A002ADAB8 /* ZYF_LingyiModuleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYF_LingyiModuleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95607A9922C0D79A002ADAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95607A9A22C0D79A002ADAB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		95607A9C22C0D79A002ADAB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		95607A9D22C0D79A002ADAB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		95607AA022C0D79A002ADAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95607AA222C0D7A6002ADAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95607AA522C0D7A6002ADAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		95607AB922C0D7A6002ADAB8 /* ZYF_LingyiModuleAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYF_LingyiModuleAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95607ABD22C0D7A6002ADAB8 /* ZYF_LingyiModuleAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYF_LingyiModuleAUITests.m; sourceTree = "<group>"; };
 		95607ABF22C0D7A6002ADAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958606C722C1B645004178C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		958606C822C1B645004178C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,9 @@
 		95607A9822C0D79A002ADAB8 /* ZYF_LingyiModuleA */ = {
 			isa = PBXGroup;
 			children = (
+				958606C622C1B645004178C6 /* ZYF_LingyiModuleA */,
 				95607A9922C0D79A002ADAB8 /* AppDelegate.h */,
 				95607A9A22C0D79A002ADAB8 /* AppDelegate.m */,
-				95607A9C22C0D79A002ADAB8 /* ViewController.h */,
-				95607A9D22C0D79A002ADAB8 /* ViewController.m */,
 				95607A9F22C0D79A002ADAB8 /* Main.storyboard */,
 				95607AA222C0D7A6002ADAB8 /* Assets.xcassets */,
 				95607AA422C0D7A6002ADAB8 /* LaunchScreen.storyboard */,
@@ -130,6 +129,15 @@
 				95607ABF22C0D7A6002ADAB8 /* Info.plist */,
 			);
 			path = ZYF_LingyiModuleAUITests;
+			sourceTree = "<group>";
+		};
+		958606C622C1B645004178C6 /* ZYF_LingyiModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				958606C722C1B645004178C6 /* ViewController.m */,
+				958606C822C1B645004178C6 /* ViewController.h */,
+			);
+			path = ZYF_LingyiModuleA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95607A9E22C0D79A002ADAB8 /* ViewController.m in Sources */,
+				958606C922C1B645004178C6 /* ViewController.m in Sources */,
 				95607AA922C0D7A6002ADAB8 /* main.m in Sources */,
 				95607A9B22C0D79A002ADAB8 /* AppDelegate.m in Sources */,
 			);
